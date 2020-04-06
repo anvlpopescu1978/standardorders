@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="UserRoles" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/UserRoles" Description="User Roles">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">User</Field>
+          <Field Name="Role">User</Field>       
+        </Row>
+        <Row>
+          <Field Name="Title">Power User</Field>
+          <Field Name="Role">Power User</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Partner Admin</Field>
+          <Field Name="Role">Partner Admin</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Customer Admin</Field>
+          <Field Name="Role">Customer Admin</Field>
+        </Row>
+        <Row>          
+          <Field Name="Title">Administrator</Field>
+          <Field Name="Role">Administrator</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administrator (no email)</Field>
+          <Field Name="Role">Administrator (no email)</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

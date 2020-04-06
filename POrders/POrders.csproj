@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B59F9254-2D68-43A2-9476-34EDF3F359F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POrders</RootNamespace>
+    <AssemblyName>POrders</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{2d48b11c-15ef-4445-ad72-0d1398d36ee4}</AppFeaturePartId>
+    <WspPartId>{bcce1be1-2241-43c5-aaac-7ca04f349549}</WspPartId>
+    <WorkflowPartId>{63adcec4-ba29-4b4e-b7c8-ae760843b808}</WorkflowPartId>
+    <CspkgPartId>{2326e5da-5ad0-488c-b822-83c6993b7780}</CspkgPartId>
+    <SqlPackagePartId>{a2840ba2-d9d9-460e-ba8e-8539420c6c99}</SqlPackagePartId>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>3.7</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptModuleKind>ES6</TypeScriptModuleKind>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sp_logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Alias\AliasInstance\Elements.xml" />
+    <Content Include="Alias\Elements.xml" />
+    <Content Include="Alias\Schema.xml" />
+    <Content Include="Basket\BasketInstance\Elements.xml" />
+    <Content Include="Basket\Elements.xml" />
+    <Content Include="Basket\Schema.xml" />
+    <Content Include="Comments\CommentsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Comments\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Comments\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Companies\CompaniesInstance\Elements.xml" />
+    <Content Include="Companies\Elements.xml" />
+    <Content Include="Companies\Schema.xml" />
+    <Content Include="Content\Bootstrap.DatePicker\bootstrap.datepicker.css" />
+    <Content Include="Content\Bootstrap\modal.fullscreen.css" />
+    <Content Include="Content\Charts\morris.css" />
+    <Content Include="Content\DataTable\datatables.bootstrap.css" />
+    <Content Include="Content\DataTable\datatables.css" />
+    <Content Include="Content\DataTable\dataTables.responsive.css" />
+    <Content Include="Content\DataTable\fixedColumns.bootstrap.css" />
+    <Content Include="Content\DateRangePicker\daterangepicker.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\jQuery.UI\jquery-ui.css" />
+    <Content Include="Content\jQuery.UI\jquery-ui.min.css" />
+    <Content Include="Content\PrintJS\index.css">
+      <DependentUpon>index.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\PrintJS\index.min.css">
+      <DependentUpon>index.css</DependentUpon>
+    </Content>
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\jQuery.UI\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\jQuery.UI\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="Content\Timeline\timeline.css" />
+    <Content Include="Content\Tooltipster\tooltipster.bundle.min.css" />
+    <Content Include="Content\Tooltipster\tooltipster.main.min.css" />
+    <Content Include="Content\Tooltipster\tooltipster.shadow.min.css" />
+    <Content Include="Countries\CountriesInstance\Elements.xml" />
+    <Content Include="Countries\Elements.xml" />
+    <Content Include="Countries\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Currencies\CurrenciesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Currencies\Elements.xml" />
+    <Content Include="Currencies\Schema.xml" />
+    <Content Include="Elements.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature4\Feature4.Template.xml">
+      <DependentUpon>Feature4.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature5\Feature5.Template.xml">
+      <DependentUpon>Feature5.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature6\Feature6.Template.xml">
+      <DependentUpon>Feature6.feature</DependentUpon>
+    </Content>
+    <Content Include="HPBasket\Elements.xml" />
+    <Content Include="HPBasket\HPBasketInstance\Elements.xml" />
+    <Content Include="HPBasket\Schema.xml" />
+    <Content Include="HPCatalogue\Elements.xml" />
+    <Content Include="HPCatalogue\HPCatalogueInstance\Elements.xml" />
+    <Content Include="HPCatalogue\Schema.xml" />
+    <Content Include="HPTemplates\EditDlg.htm" />
+    <Content Include="HPTemplates\Elements.xml" />
+    <Content Include="HPTemplates\FileDlg.htm" />
+    <Content Include="HPTemplates\HPTemplatesInstance\Elements.xml" />
+    <Content Include="HPTemplates\Repair.aspx" />
+    <Content Include="HPTemplates\Schema.xml" />
+    <Content Include="HPTemplates\Upload.aspx" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\HPR_Blue_logo.PNG" />
+    <Content Include="Images\HPR_white_logo.png" />
+    <Content Include="Images\hp_logo.gif" />
+    <Content Include="Images\IWGLogo.png" />
+    <Content Include="Images\regus.jpg" />
+    <Content Include="Images\S-Group logo.png" />
+    <Content Include="Images\sp_logo.jpg" />
+    <Content Include="Images\sp_logo.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="LegalEntities\Elements.xml" />
+    <Content Include="LegalEntities\LegalEntitiesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="LegalEntities\Schema.xml" />
+    <Content Include="Pages\Administration\Templates.aspx" />
+    <Content Include="Pages\Administration\Templates.js" />
+    <Content Include="Pages\Administration\SavedToExternalLib.js" />
+    <Content Include="Pages\Administration\SavedToExternalLib.aspx" />
+    <Content Include="Pages\Approvals\PendingOrders.aspx" />
+    <Content Include="Pages\Approvals\PendingOrders.js" />
+    <Content Include="Pages\Approvals\poids.aspx" />
+    <Content Include="Pages\Approvals\poids.js" />
+    <Content Include="Pages\Catalogues\AddToCatalogue - Copy.js" />
+    <Content Include="Pages\Catalogues\AddToCatalogue.js" />
+    <Content Include="Pages\Catalogues\SeachDeal2.js" />
+    <Content Include="Pages\Catalogues\SearchDeal2.aspx" />
+    <Content Include="Pages\Catalogues\SearchDeal.aspx" />
+    <Content Include="Pages\Catalogues\AddToCatalogue.aspx" />
+    <Content Include="Pages\Catalogues\SeachDeal.js" />
+    <Content Include="Pages\Common\administrators.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\basket - Copy.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\EditPO - Copy.aspx" />
+    <Content Include="Pages\Common\EditPO - Copy.js" />
+    <Content Include="Pages\Common\ViewContract.js" />
+    <Content Include="Pages\Common\ViewContract.aspx" />
+    <Content Include="Pages\Common\Contract.aspx" />
+    <Content Include="Pages\Countries\EditCountry.aspx" />
+    <Content Include="Pages\Countries\EditCountry.js" />
+    <Content Include="Pages\Countries\EditLegalEntity.aspx" />
+    <Content Include="Pages\Countries\EditLegalEntity.js" />
+    <Content Include="Pages\Countries\LegalEntities.js" />
+    <Content Include="Pages\Countries\LegalEntities.aspx" />
+    <Content Include="Pages\Countries\Countries.aspx" />
+    <Content Include="Pages\Countries\Countries.js" />
+    <Content Include="Pages\Countries\countries.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Currencies\Currencies.aspx" />
+    <Content Include="Pages\Currencies\Currencies.js" />
+    <Content Include="Pages\Currencies\currencies.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\AccessDenied.aspx" />
+    <Content Include="Pages\CustomerAdmin\orders.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\CustomerAdmin\PurchaseOrders.aspx" />
+    <Content Include="Pages\CustomerAdmin\PurchaseOrders.js" />
+    <Content Include="Pages\Default.js" />
+    <Content Include="Pages\PartnerAdmin\orders.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\PartnerAdmin\PurchaseOrders.aspx" />
+    <Content Include="Pages\PartnerAdmin\PurchaseOrders.js" />
+    <Content Include="Pages\PO\CreatePO - Copy.js" />
+    <Content Include="Pages\statistics.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Users\Companies.aspx" />
+    <Content Include="Pages\Users\Companies.js" />
+    <Content Include="POIDS\Elements.xml" />
+    <Content Include="POIDS\POIDSInstance\Elements.xml" />
+    <Content Include="POIDS\Schema.xml" />
+    <Content Include="Scripts\App - Copy.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Framework\Bootstrap.DatePicker\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\Framework\Bootstrap.DatePicker\bootstrap.datepicker.js" />
+    <Content Include="Scripts\Framework\Charts\morris.js" />
+    <Content Include="Scripts\Framework\Charts\raphael.js" />
+    <Content Include="Scripts\Framework\DataTable\datatables - Copy.js" />
+    <Content Include="Scripts\Framework\DataTable\datatables.bootstrap.js" />
+    <Content Include="Scripts\Framework\DataTable\datatables.buttons.js" />
+    <Content Include="Scripts\Framework\DataTable\dataTables.responsive - Copy.js" />
+    <Content Include="Scripts\Framework\DataTable\dataTables.responsive.js" />
+    <Content Include="Scripts\Framework\DateRangePicker\daterangepicker.js" />
+    <Content Include="Scripts\Framework\DateRangePicker\daterangepicker.min.js">
+      <DependentUpon>daterangepicker.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\Framework\EasyPieChart\easypiechart.js" />
+    <Content Include="Scripts\Framework\Filesaver\Blob.js" />
+    <Content Include="Scripts\Framework\Filesaver\FileSaver.js" />
+    <Content Include="Scripts\Framework\Graph\graph.js" />
+    <Content Include="Scripts\Framework\Graph\msal.js" />
+    <Content Include="Scripts\Framework\Graph\polyfiil.js" />
+    <Content Include="Scripts\Framework\Graph\request.js" />
+    <Content Include="Scripts\Framework\HostOps\HostOps.js" />
+    <Content Include="Scripts\Framework\jsPdf\html.js" />
+    <Content Include="Scripts\Framework\jsPdf\html2canvas.js" />
+    <Content Include="Scripts\Framework\jsPdf\jspdf.min.js" />
+    <Content Include="Scripts\Framework\jsPdf\jspdf.plugin.autotable.min.js" />
+    <Content Include="Scripts\Framework\Lists\sharepoint.data - Copy.js" />
+    <Content Include="Scripts\Framework\Lists\sharepoint.data.js" />
+    <Content Include="Scripts\Framework\Moment\moment-with-locales.js" />
+    <Content Include="Scripts\Framework\Moment\moment.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\browser.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\functions.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\html.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\image.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\init.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\json.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\modal.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\pdf.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\print.js" />
+    <Content Include="Scripts\Framework\PrintJS\js\raw-html.js" />
+    <Content Include="Scripts\jquery-1.12.4.intellisense.js" />
+    <Content Include="Scripts\jquery-1.12.4.js" />
+    <Content Include="Scripts\jquery-1.12.4.min.js" />
+    <Content Include="Scripts\Framework\jQuery.UI\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\Framework\jQuery.UI\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Require.js" />
+    <Content Include="Scripts\Framework\XLSX\jszip.js" />
+    <Content Include="Scripts\Framework\XLSX\xlsx.core.min.js" />
+    <Content Include="Scripts\Framework\XLSX\xlsx.js" />
+    <Content Include="Scripts\loader.js" />
+    <Content Include="Pages\Administration\orders.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Administration\PurchaseOrders.aspx" />
+    <Content Include="Pages\Administration\PurchaseOrders.js" />
+    <Content Include="Pages\Common\editpo2.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\history.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\basket.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\EditPO.js" />
+    <Content Include="Pages\Common\editpo.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\main.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\EditPO.aspx" />
+    <Content Include="Pages\Common\userrole.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Common\users.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\PO\AddToBasket.js" />
+    <Content Include="Pages\PO\AddToBasket.aspx" />
+    <Content Include="Pages\PO\CreatePO.aspx" />
+    <Content Include="Pages\PO\CreatePO.js" />
+    <Content Include="Pages\PO\addtobasket.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\PO\MyOrders.js" />
+    <Content Include="Pages\PO\myorders.xslt" />
+    <Content Include="Pages\PO\MyOrders.aspx" />
+    <Content Include="Pages\PO\orders.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Products\AddProduct.aspx" />
+    <Content Include="Pages\Products\AddProduct.js" />
+    <Content Include="Pages\Products\EditProduct.aspx" />
+    <Content Include="Pages\Products\EditProduct.js" />
+    <Content Include="Pages\Products\editproduct.xslt" />
+    <Content Include="Pages\Products\Products.aspx" />
+    <Content Include="Pages\Products\Products.js" />
+    <Content Include="Pages\Products\products.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Suppliers\EditSupplier.js" />
+    <Content Include="Pages\Suppliers\EditSupplier.aspx" />
+    <Content Include="Pages\Suppliers\editsupplier.xslt" />
+    <Content Include="Pages\Suppliers\Suppliers.js" />
+    <Content Include="Pages\Suppliers\Suppliers.aspx" />
+    <Content Include="Pages\Suppliers\AddSupplier.js" />
+    <Content Include="Pages\Suppliers\suppliers.xslt" />
+    <Content Include="Pages\Team\orders.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Team\PurchaseOrders.aspx" />
+    <Content Include="Pages\Team\PurchaseOrders.js" />
+    <Content Include="Pages\Users\ManageUsers.js" />
+    <Content Include="Pages\Users\manageusers.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Users\ManageUsers.aspx" />
+    <Content Include="Phases\Elements.xml" />
+    <Content Include="Phases\PhasesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Phases\Schema.xml" />
+    <Content Include="Products\Elements.xml" />
+    <Content Include="Products\ProductsInstance\Elements.xml" />
+    <Content Include="Products\Schema.xml" />
+    <Content Include="PurchaseOrders\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PurchaseOrders\PurchaseOrdersInstance\Elements.xml" />
+    <Content Include="PurchaseOrders\Schema.xml" />
+    <Content Include="Scripts\Framework\Bootstrap\modal.fullscreen.js" />
+    <Content Include="Scripts\Framework\Controls\sharepoint.controls.js" />
+    <Content Include="Scripts\Framework\DataTable\dataTables.fixedColumns.js" />
+    <Content Include="Scripts\Framework\DataTable\datatables.js" />
+    <Content Include="Scripts\Framework\Dialog\sharepoint.dialog.js" />
+    <Content Include="Scripts\Framework\jQuery\jquery.makemecenter.js" />
+    <Content Include="Scripts\Framework\jQuery\jquery.number.js" />
+    <Content Include="Scripts\Framework\jQuery\tooltipster.bundle.min.js" />
+    <Content Include="Scripts\Framework\jQuery\tooltipster.main.min.js" />
+    <Content Include="Scripts\Framework\Lists\sharepoint.lists.js" />
+    <Content Include="Scripts\Framework\Mail\sharepoint.mail.js" />
+    <Content Include="Scripts\start.js" />
+    <Content Include="Settings\Elements.xml" />
+    <Content Include="Settings\Schema.xml" />
+    <Content Include="Settings\SettingsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sp_logo.ico" />
+    <Content Include="Suppliers\Elements.xml" />
+    <Content Include="Suppliers\Schema.xml" />
+    <Content Include="Suppliers\SuppliersInstance\Elements.xml" />
+    <Content Include="UserRoles\Elements.xml" />
+    <Content Include="UserRoles\Schema.xml" />
+    <Content Include="UserRoles\UserRolesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Users\Elements.xml" />
+    <Content Include="Users\Schema.xml" />
+    <Content Include="Users\UsersInstance\Elements.xml" />
+    <None Include="Alias\AliasInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dbe61dbf-50be-4884-a7c2-1d12a50a21e9}</SharePointProjectItemId>
+    </None>
+    <None Include="Alias\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ff673e8d-8c0e-4491-b506-753eecfef8dc}</SharePointProjectItemId>
+    </None>
+    <None Include="Basket\BasketInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{100fe009-42bc-46c4-a098-b25127200f09}</SharePointProjectItemId>
+    </None>
+    <None Include="Basket\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c4b126fd-d7af-40ec-bf36-915c8fdb8f4d}</SharePointProjectItemId>
+    </None>
+    <None Include="bundleconfig.json" />
+    <None Include="Comments\CommentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dc13fd37-4260-4b5e-9519-5ce11d12548b}</SharePointProjectItemId>
+    </None>
+    <None Include="Comments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{50bd13c1-726f-4147-bc18-533be0a6b47c}</SharePointProjectItemId>
+    </None>
+    <None Include="Companies\CompaniesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{93924d48-4cfd-4cd5-b362-9df30809b471}</SharePointProjectItemId>
+    </None>
+    <None Include="Companies\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c1ea1c38-5a30-43b8-96cf-49bc72b4edba}</SharePointProjectItemId>
+    </None>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="Content\bootstrap-datetimepicker-build.less" />
+    <None Include="Content\Bootstrap\alerts.less" />
+    <None Include="Content\Bootstrap\badges.less" />
+    <None Include="Content\Bootstrap\bootstrap.less" />
+    <None Include="Content\Bootstrap\breadcrumbs.less" />
+    <None Include="Content\Bootstrap\button-groups.less" />
+    <None Include="Content\Bootstrap\buttons.less" />
+    <None Include="Content\Bootstrap\carousel.less" />
+    <None Include="Content\Bootstrap\close.less" />
+    <None Include="Content\Bootstrap\code.less" />
+    <None Include="Content\Bootstrap\component-animations.less" />
+    <None Include="Content\Bootstrap\dropdowns.less" />
+    <None Include="Content\Bootstrap\forms.less" />
+    <None Include="Content\Bootstrap\glyphicons.less" />
+    <None Include="Content\Bootstrap\grid.less" />
+    <None Include="Content\Bootstrap\input-groups.less" />
+    <None Include="Content\Bootstrap\jumbotron.less" />
+    <None Include="Content\Bootstrap\labels.less" />
+    <None Include="Content\Bootstrap\list-group.less" />
+    <None Include="Content\Bootstrap\media.less" />
+    <None Include="Content\Bootstrap\mixins.less" />
+    <None Include="Content\Bootstrap\mixins\alerts.less" />
+    <None Include="Content\Bootstrap\mixins\background-variant.less" />
+    <None Include="Content\Bootstrap\mixins\border-radius.less" />
+    <None Include="Content\Bootstrap\mixins\buttons.less" />
+    <None Include="Content\Bootstrap\mixins\center-block.less" />
+    <None Include="Content\Bootstrap\mixins\clearfix.less" />
+    <None Include="Content\Bootstrap\mixins\forms.less" />
+    <None Include="Content\Bootstrap\mixins\gradients.less" />
+    <None Include="Content\Bootstrap\mixins\grid-framework.less" />
+    <None Include="Content\Bootstrap\mixins\grid.less" />
+    <None Include="Content\Bootstrap\mixins\hide-text.less" />
+    <None Include="Content\Bootstrap\mixins\image.less" />
+    <None Include="Content\Bootstrap\mixins\labels.less" />
+    <None Include="Content\Bootstrap\mixins\list-group.less" />
+    <None Include="Content\Bootstrap\mixins\nav-divider.less" />
+    <None Include="Content\Bootstrap\mixins\nav-vertical-align.less" />
+    <None Include="Content\Bootstrap\mixins\opacity.less" />
+    <None Include="Content\Bootstrap\mixins\pagination.less" />
+    <None Include="Content\Bootstrap\mixins\panels.less" />
+    <None Include="Content\Bootstrap\mixins\progress-bar.less" />
+    <None Include="Content\Bootstrap\mixins\reset-filter.less" />
+    <None Include="Content\Bootstrap\mixins\reset-text.less" />
+    <None Include="Content\Bootstrap\mixins\resize.less" />
+    <None Include="Content\Bootstrap\mixins\responsive-visibility.less" />
+    <None Include="Content\Bootstrap\mixins\size.less" />
+    <None Include="Content\Bootstrap\mixins\tab-focus.less" />
+    <None Include="Content\Bootstrap\mixins\table-row.less" />
+    <None Include="Content\Bootstrap\mixins\text-emphasis.less" />
+    <None Include="Content\Bootstrap\mixins\text-overflow.less" />
+    <None Include="Content\Bootstrap\mixins\vendor-prefixes.less" />
+    <None Include="Content\Bootstrap\modals.less" />
+    <None Include="Content\Bootstrap\navbar.less" />
+    <None Include="Content\Bootstrap\navs.less" />
+    <None Include="Content\Bootstrap\normalize.less" />
+    <None Include="Content\Bootstrap\pager.less" />
+    <None Include="Content\Bootstrap\pagination.less" />
+    <None Include="Content\Bootstrap\panels.less" />
+    <None Include="Content\Bootstrap\popovers.less" />
+    <None Include="Content\Bootstrap\print.less" />
+    <None Include="Content\Bootstrap\progress-bars.less" />
+    <None Include="Content\Bootstrap\responsive-embed.less" />
+    <None Include="Content\Bootstrap\responsive-utilities.less" />
+    <None Include="Content\Bootstrap\scaffolding.less" />
+    <None Include="Content\Bootstrap\tables.less" />
+    <None Include="Content\Bootstrap\theme.less" />
+    <None Include="Content\Bootstrap\thumbnails.less" />
+    <None Include="Content\Bootstrap\tooltip.less" />
+    <None Include="Content\Bootstrap\type.less" />
+    <None Include="Content\Bootstrap\utilities.less" />
+    <None Include="Content\Bootstrap\variables.less" />
+    <None Include="Content\Bootstrap\wells.less" />
+    <None Include="Content\fonts\fontawesome-webfont.eot" />
+    <None Include="Content\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\fonts\fontawesome-webfont.woff" />
+    <None Include="Content\fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\fonts\FontAwesome.otf" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Content\fonts\hps-euro-w01-regular-eot.eot" />
+    <None Include="Content\fonts\hps-euro-w01-regular-ttf.ttf" />
+    <None Include="Content\fonts\hps-euro-w01-regular-woff.woff" />
+    <None Include="Content\PrintJS\index.scss" />
+    <None Include="Content\PrintJS\sass\modules\_colors.scss" />
+    <None Include="Content\PrintJS\sass\partials\_modal.scss" />
+    <None Include="Content\PrintJS\sass\partials\_spinner.scss" />
+    <None Include="Content\_bootstrap-datetimepicker.less" />
+    <None Include="Countries\CountriesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4dbf3d5-9439-473c-ad0d-c5e0c3e50b7c}</SharePointProjectItemId>
+    </None>
+    <None Include="Countries\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{977d68de-c1cb-45ff-8a1e-3ffd0c652b55}</SharePointProjectItemId>
+    </None>
+    <None Include="Currencies\CurrenciesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{77438e46-9f13-44cd-9ee4-3f5c3e4e99f3}</SharePointProjectItemId>
+    </None>
+    <None Include="Currencies\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3315cf0d-6f94-474c-ab97-6b1e61f43b73}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{05dd8ca1-6118-438c-af2d-c000597b7af4}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{6c9e57a7-3e18-4e7d-9a68-f5aa04a22f09}</FeatureId>
+    </None>
+    <None Include="Features\Feature4\Feature4.feature">
+      <FeatureId>{c0d568d4-8cf2-4ee4-9bab-b08474b70721}</FeatureId>
+    </None>
+    <None Include="Features\Feature5\Feature5.feature">
+      <FeatureId>{11a0f906-6f70-4279-a918-8a9f76a2d574}</FeatureId>
+    </None>
+    <None Include="Features\Feature6\Feature6.feature">
+      <FeatureId>{5bdd45c3-90b1-4ba1-9117-6fabe883adba}</FeatureId>
+    </None>
+    <None Include="HPBasket\HPBasketInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e6b2f22-9a3b-4f9e-817d-237bd4512282}</SharePointProjectItemId>
+    </None>
+    <None Include="HPBasket\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e396e6bc-330e-4c06-b06d-0e77cfeb09b4}</SharePointProjectItemId>
+    </None>
+    <None Include="HPCatalogue\HPCatalogueInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{123a0332-e841-42d8-983c-6921f0683d9c}</SharePointProjectItemId>
+    </None>
+    <None Include="HPCatalogue\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f382f23d-ebcc-457b-9bf9-06365b9a701e}</SharePointProjectItemId>
+    </None>
+    <None Include="HPTemplates\HPTemplatesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{11164bd7-585a-455e-9e51-a0309cbbfc49}</SharePointProjectItemId>
+    </None>
+    <None Include="HPTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9ae15fa-1ad2-47ce-a372-f6ce4d9f7272}</SharePointProjectItemId>
+    </None>
+    <None Include="LegalEntities\LegalEntitiesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba30c69f-588c-4873-b1e2-908e50432565}</SharePointProjectItemId>
+    </None>
+    <None Include="LegalEntities\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9b33827b-949e-4cd0-b7de-d682ed9a744d}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPages\dialog.master" />
+    <None Include="MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ce42cf0a-6e11-41eb-95b3-34bf46a351bc}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{17487640-bbaf-4736-8c24-3c4552301d63}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Bootstrap\bootstrap.css" />
+    <Content Include="Content\corev15.css" />
+    <Content Include="Content\FontAwesome\fontawesome.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="MasterPages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="MasterPages\main.master" />
+    <Content Include="Pages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Phases\PhasesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9cfc1f58-ea51-4de1-b598-d15d5c544359}</SharePointProjectItemId>
+    </None>
+    <None Include="Phases\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5ef4cf64-65bf-4487-bd0d-cc4cd37dc01c}</SharePointProjectItemId>
+    </None>
+    <None Include="POIDS\POIDSInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d64a248-c10f-45eb-83b5-a34f6178c482}</SharePointProjectItemId>
+    </None>
+    <None Include="POIDS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d35c9f62-8f44-4115-930c-1123202994a9}</SharePointProjectItemId>
+    </None>
+    <None Include="Products\ProductsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c63eb50e-474a-44d8-9cf8-3d8f8c1967af}</SharePointProjectItemId>
+    </None>
+    <None Include="Products\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{69dc4169-4048-4813-93f7-a889282b19b9}</SharePointProjectItemId>
+    </None>
+    <None Include="PurchaseOrders\PurchaseOrdersInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d2a4871e-7dbb-48c0-8763-c0708322e815}</SharePointProjectItemId>
+    </None>
+    <None Include="PurchaseOrders\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f40146bf-f5ef-48d0-a03b-1fe99376aa6f}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\jquery-1.12.4.min.map" />
+    <None Include="Settings\SettingsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d71b9c1c-2849-4f5f-b21f-1b6d6bacbcf8}</SharePointProjectItemId>
+    </None>
+    <None Include="Settings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f835e65d-d7be-4465-8dc7-83a63ce0db0a}</SharePointProjectItemId>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{896e4dd5-cd4e-4bb4-b09d-8ba753334da5}</SharePointProjectItemId>
+    </None>
+    <None Include="Suppliers\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8a488391-080c-4f2f-8daf-64586f4f99e1}</SharePointProjectItemId>
+    </None>
+    <None Include="Suppliers\SuppliersInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba3b9d19-b862-4f07-94fb-08e95cc7666a}</SharePointProjectItemId>
+    </None>
+    <None Include="UserRoles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7187b4dd-8c01-406c-ad6d-3a61d968cd85}</SharePointProjectItemId>
+    </None>
+    <None Include="UserRoles\UserRolesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5cbeba17-ed19-48e7-aa93-b5f7ad023fd6}</SharePointProjectItemId>
+    </None>
+    <None Include="Users\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4860647f-11ad-41ac-b90a-56240967160d}</SharePointProjectItemId>
+    </None>
+    <None Include="Users\UsersInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a084164-69ff-41ed-8e30-97fa36a3b17b}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a2840ba2-d9d9-460e-ba8e-8539420c6c99}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Suppliers\AddSupplier.aspx" />
+    <Content Include="Scripts\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\Framework\Bootstrap\bootstrap.bundle.js" />
+    <Content Include="Scripts\Framework\Bootstrap\bootstrap.js" />
+    <Content Include="Scripts\Framework\Bootstrap\metismenu.js" />
+    <Content Include="Scripts\Framework\Bootstrap\popper.js" />
+    <Content Include="Scripts\Framework\jQuery\jquery.js" />
+    <Content Include="Scripts\Master.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{00666d2b-fda6-4078-a3ba-4c734fe3e9d0}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png" />
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{66d3f98a-a848-4220-9fb2-ed9895d788d9}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{d1dfb5d4-4d80-40b7-a384-5139d1bfbb39}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{de53e893-6ccc-469c-92a8-8f5d97ec6308}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.3.7.4\build\Microsoft.TypeScript.MSBuild.targets')" />
+</Project>

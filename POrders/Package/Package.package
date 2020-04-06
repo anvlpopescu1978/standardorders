@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d1dfb5d4-4d80-40b7-a384-5139d1bfbb39" solutionId="d1dfb5d4-4d80-40b7-a384-5139d1bfbb39" resetWebServer="false" sharePointProductVersion="16.0" name="POrders" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="de53e893-6ccc-469c-92a8-8f5d97ec6308" />
+    <featureReference itemId="05dd8ca1-6118-438c-af2d-c000597b7af4" />
+    <featureReference itemId="6c9e57a7-3e18-4e7d-9a68-f5aa04a22f09" />
+    <featureReference itemId="c0d568d4-8cf2-4ee4-9bab-b08474b70721" />
+    <featureReference itemId="11a0f906-6f70-4279-a918-8a9f76a2d574" />
+    <featureReference itemId="5bdd45c3-90b1-4ba1-9117-6fabe883adba" />
+  </features>
+</package>

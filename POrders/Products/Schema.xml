@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Products" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Products" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100001b8642b717418097d4b3784d494849" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{6b8133ba-c816-43d7-b524-9b2ce291b53f}" Name="ProductDescription" /><FieldRef ID="{4841213f-36e8-48ee-b057-e17219260e77}" Name="Price" /><FieldRef ID="{b27da691-b48b-471e-8302-22263fa1bb86}" Name="Currency" /><FieldRef ID="{c8fedc6e-cb43-4ce2-a161-2593777a49d7}" Name="ProductCode" /><FieldRef ID="{d479868d-8269-4096-8165-fc62f705ac8d}" Name="Supplier" /><FieldRef ID="{54df1c62-372b-4c14-a691-93a1a77deed0}" Name="Qty" /><FieldRef ID="{1a3c860b-950e-41d3-8dc1-6e700b722430}" Name="ProductName" /><FieldRef ID="{cdfddf8d-99be-4aad-b0f4-ba1f9a6ac35c}" Name="CountryCode" /><FieldRef ID="{8e5bbba6-d500-430f-bf8f-cde937bc8f1d}" Name="UniqueIdentifier" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    
+    <Fields>    
+    
+      
+      
+      
+      
+      
+      
+    <Field Name="ProductDescription" ID="{6b8133ba-c816-43d7-b524-9b2ce291b53f}" DisplayName="Product Description" Type="Note" RichText="FALSE" Required="TRUE" /><Field Name="Price" ID="{4841213f-36e8-48ee-b057-e17219260e77}" DisplayName="Price" Type="Number" Required="TRUE" Decimals="2" /><Field Name="Currency" ID="{b27da691-b48b-471e-8302-22263fa1bb86}" DisplayName="Currency" Type="Text" Required="TRUE" MaxLength="3" /><Field Name="ProductCode" ID="{c8fedc6e-cb43-4ce2-a161-2593777a49d7}" DisplayName="Product Code" Type="Text" Required="TRUE" EnforceUniqueValues="TRUE" AllowDuplicateValues="FALSE" Indexed="TRUE" /><Field Name="Supplier" ID="{d479868d-8269-4096-8165-fc62f705ac8d}" DisplayName="Supplier" Type="Text" Required="TRUE" /><Field Name="Qty" ID="{54df1c62-372b-4c14-a691-93a1a77deed0}" DisplayName="Qty" Type="Number" Decimals="0" Required="TRUE" /><Field Name="ProductName" ID="{1a3c860b-950e-41d3-8dc1-6e700b722430}" DisplayName="Product Name" Type="Text" Required="TRUE" EnforceUniqueValues="TRUE" AllowDuplicateValues="FALSE" Indexed="TRUE" /><Field Name="CountryCode" ID="{cdfddf8d-99be-4aad-b0f4-ba1f9a6ac35c}" DisplayName="Country Code" Type="Text" Required="TRUE" Indexed="TRUE" MaxLength="2" /><Field Name="UniqueIdentifier" ID="{8e5bbba6-d500-430f-bf8f-cde937bc8f1d}" DisplayName="Unique Identifier" Type="Text" Required="TRUE" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="ProductName" /><FieldRef Name="ProductCode" /><FieldRef Name="ProductDescription" /><FieldRef Name="CountryCode" /><FieldRef Name="Currency" /><FieldRef Name="Price" /><FieldRef Name="Supplier" /><FieldRef Name="Qty" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

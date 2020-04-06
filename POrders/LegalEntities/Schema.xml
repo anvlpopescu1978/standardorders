@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="LegalEntities" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/LegalEntities" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100d905fae0758f49c09b88aff0ae993b52" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{ca94daac-2d6f-4b3d-8e23-6708a9a02826}" Name="Legal_x0020_Entity_x0020_Name" /><FieldRef ID="{ce653976-5c54-41fa-9a5b-29e55837577e}" Name="VaTNumber" /><FieldRef ID="{254d66ae-7c85-4842-9059-5b6b4d9317b9}" Name="AddressLine1" /><FieldRef ID="{366572f4-7352-4ccf-8b2b-345106d93837}" Name="AddressLine2" /><FieldRef ID="{e87019bf-2012-4383-ab56-a183ed33654c}" Name="Country" /><FieldRef ID="{6ca7bd7f-b490-402e-af1b-2813cf087b1e}" Name="WorkCity" /><FieldRef ID="{3182aa38-66db-492f-994d-875a9c9abb93}" Name="PostalCode" /><FieldRef ID="{5307510b-eef6-4465-81e8-906f49ce9be0}" Name="CountryCode" /><FieldRef ID="{e20a0ff6-0ef1-49c2-b00c-9043be821c43}" Name="SSOWNumber" /><FieldRef ID="{b8a67d4a-3d98-4cc7-8365-1e9cb780defc}" Name="CPADate" /><FieldRef ID="{faa37fb5-dbf5-4b1c-aa0b-1b8fbdbdebef}" Name="ContactName" /><FieldRef ID="{26b0fd36-0f2d-4f36-a238-0fea773cbe54}" Name="ContactPhone" /><FieldRef ID="{c4d9525b-de5e-457b-9e9a-e197ce6725b4}" Name="ContactEmail" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Type="Text" DisplayName="Legal Entity Name" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="DealSource" ID="{ca94daac-2d6f-4b3d-8e23-6708a9a02826}" StaticName="Legal_x0020_Entity_x0020_Name" Name="Legal_x0020_Entity_x0020_Name" SourceID="{64fe8c59-3550-437a-9cc1-69277fe2ea73}" Version="1" /><Field Name="VaTNumber" ID="{ce653976-5c54-41fa-9a5b-29e55837577e}" DisplayName="VaT Number" Type="Text" Required="TRUE" /><Field Name="AddressLine1" ID="{254d66ae-7c85-4842-9059-5b6b4d9317b9}" DisplayName="Address Line 1" Type="Text" Required="TRUE" /><Field Name="AddressLine2" ID="{366572f4-7352-4ccf-8b2b-345106d93837}" DisplayName="Address Line 2" Type="Text" Required="TRUE" /><Field Name="Country" ID="{e87019bf-2012-4383-ab56-a183ed33654c}" DisplayName="Country" Type="Text" Required="TRUE" /><Field ID="{6ca7bd7f-b490-402e-af1b-2813cf087b1e}" Name="WorkCity" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkCity" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,City;" Type="Text" Required="TRUE" /><Field Name="PostalCode" ID="{3182aa38-66db-492f-994d-875a9c9abb93}" DisplayName="Postal Code" Type="Text" Required="TRUE" /><Field Name="CountryCode" ID="{5307510b-eef6-4465-81e8-906f49ce9be0}" DisplayName="Country Code" Type="Text" Required="TRUE" /><Field Name="SSOWNumber" ID="{e20a0ff6-0ef1-49c2-b00c-9043be821c43}" DisplayName="SSOW Number" Type="Text" Required="TRUE" /><Field Name="CPADate" ID="{b8a67d4a-3d98-4cc7-8365-1e9cb780defc}" DisplayName="CPA Date" Type="DateTime" Required="TRUE" Format="DateOnly" /><Field Name="ContactName" ID="{faa37fb5-dbf5-4b1c-aa0b-1b8fbdbdebef}" DisplayName="Contact Name" Type="Text" Required="TRUE" /><Field Name="ContactPhone" ID="{26b0fd36-0f2d-4f36-a238-0fea773cbe54}" DisplayName="Contact Phone" Type="Text" Required="TRUE" /><Field Name="ContactEmail" ID="{c4d9525b-de5e-457b-9e9a-e197ce6725b4}" DisplayName="Contact Email" Type="Text" Required="TRUE" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Legal_x0020_Entity_x0020_Name" /><FieldRef Name="VaTNumber" /><FieldRef Name="AddressLine1" /><FieldRef Name="AddressLine2" /><FieldRef Name="Country" /><FieldRef Name="WorkCity" /><FieldRef Name="PostalCode" /><FieldRef Name="CountryCode" /><FieldRef Name="SSOWNumber" /><FieldRef Name="CPADate" /><FieldRef Name="ContactName" /><FieldRef Name="ContactPhone" /><FieldRef Name="ContactEmail" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

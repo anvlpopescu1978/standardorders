@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Users" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Users" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100ccb2a0563d314db5bdf0a6a8b515aca1" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{b622ede4-fb02-4e15-9b41-cfb47221b58e}" Name="EmailAddress" /><FieldRef ID="{22848d07-1697-4073-a396-b96e570cc168}" Name="DisplayName" /><FieldRef ID="{79777961-63cf-4ce2-a78a-385ff92e083d}" Name="LoginName" /><FieldRef ID="{3820ffa4-7e89-4ac9-8946-83dbe26f0d23}" Name="EntityUser" /><FieldRef ID="{5243af91-73c0-4270-97ee-93b97baceb04}" Name="Admin" /><FieldRef ID="{c91bf683-322f-4b4e-8b61-93a1b7a81bf1}" Name="TeamMember" /><FieldRef ID="{EEAEAAF1-4110-465b-905E-DF1073A7E0E6}" Name="Role" /><FieldRef ID="{a9d3586e-7f84-4a12-8f0b-29d80ccfd382}" Name="Partner" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="EmailAddress" ID="{b622ede4-fb02-4e15-9b41-cfb47221b58e}" DisplayName="Email Address" Type="Text" Required="TRUE" /><Field Name="DisplayName" ID="{22848d07-1697-4073-a396-b96e570cc168}" DisplayName="Display Name" Type="Text" Required="TRUE" /><Field Name="LoginName" ID="{79777961-63cf-4ce2-a78a-385ff92e083d}" DisplayName="Login Name" Type="Text" Required="TRUE" /><Field Name="EntityUser" ID="{3820ffa4-7e89-4ac9-8946-83dbe26f0d23}" DisplayName="Entity User" Type="User" Required="TRUE" List="UserInfo" /><Field Name="Admin" ID="{5243af91-73c0-4270-97ee-93b97baceb04}" DisplayName="Admin" Type="Text" MaxLength="10" Required="TRUE" /><Field Name="TeamMember" ID="{c91bf683-322f-4b4e-8b61-93a1b7a81bf1}" DisplayName="Team Member" Type="Text" Required="TRUE" /><Field ID="{EEAEAAF1-4110-465b-905E-DF1073A7E0E6}" Name="Role" StaticName="Role" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Role_OL;" Group="$Resources:core,Issue_Task_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" Required="TRUE" /><Field Name="Partner" ID="{a9d3586e-7f84-4a12-8f0b-29d80ccfd382}" DisplayName="Partner" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="EmailAddress" /><FieldRef Name="DisplayName" /><FieldRef Name="LoginName" /><FieldRef Name="EntityUser" /><FieldRef Name="Admin" /><FieldRef Name="TeamMember" /><FieldRef Name="Role" /><FieldRef Name="Partner" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

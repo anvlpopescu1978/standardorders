@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages">
+    <File Path="MasterPages\main.master" Url="_catalogs/masterpage/main.master" Level="Published" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+    <File Path="MasterPages\dialog.master" Url="_catalogs/masterpage/dialog.master" Level="Published" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

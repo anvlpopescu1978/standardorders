@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Bootstrap\bootstrap.css" Url="Content/Bootstrap/bootstrap.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\FontAwesome\fontawesome.css" Url="Content/FontAwesome/fontawesome.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\FontAwesome.otf" Url="Content/fonts/FontAwesome.otf" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\fontawesome-webfont.eot" Url="Content/fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\fontawesome-webfont.svg" Url="Content/fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\fontawesome-webfont.ttf" Url="Content/fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\fontawesome-webfont.woff" Url="Content/fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\fontawesome-webfont.woff2" Url="Content/fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\corev15.css" Url="Content/corev15.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Bootstrap\modal.fullscreen.css" Url="Content/Bootstrap/modal.fullscreen.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Tooltipster\tooltipster.main.min.css" Url="Content/Tooltipster/tooltipster.main.min.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Tooltipster\tooltipster.bundle.min.css" Url="Content/Tooltipster/tooltipster.bundle.min.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\DataTable\datatables.css" Url="Content/DataTable/datatables.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\DataTable\fixedColumns.bootstrap.css" Url="Content/DataTable/fixedColumns.bootstrap.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Tooltipster\tooltipster.shadow.min.css" Url="Content/Tooltipster/tooltipster.shadow.min.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\DataTable\dataTables.responsive.css" Url="Content/DataTable/dataTables.responsive.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Charts\morris.css" Url="Content/Charts/morris.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\hps-euro-w01-regular-eot.eot" Url="Content/fonts/hps-euro-w01-regular-eot.eot" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\hps-euro-w01-regular-ttf.ttf" Url="Content/fonts/hps-euro-w01-regular-ttf.ttf" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\fonts\hps-euro-w01-regular-woff.woff" Url="Content/fonts/hps-euro-w01-regular-woff.woff" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Bootstrap.DatePicker\bootstrap.datepicker.css" Url="Content/Bootstrap.DatePicker/bootstrap.datepicker.css" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\glyphicons-halflings-regular.woff2" Url="Content/fonts/glyphicons-halflings-regular.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\glyphicons-halflings-regular.woff" Url="Content/fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\glyphicons-halflings-regular.ttf" Url="Content/fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\glyphicons-halflings-regular.svg" Url="Content/fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\glyphicons-halflings-regular.eot" Url="Content/fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\wells.less" Url="Content/Bootstrap/wells.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\variables.less" Url="Content/Bootstrap/variables.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\utilities.less" Url="Content/Bootstrap/utilities.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\type.less" Url="Content/Bootstrap/type.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\tooltip.less" Url="Content/Bootstrap/tooltip.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\thumbnails.less" Url="Content/Bootstrap/thumbnails.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\theme.less" Url="Content/Bootstrap/theme.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\tables.less" Url="Content/Bootstrap/tables.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\scaffolding.less" Url="Content/Bootstrap/scaffolding.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\responsive-utilities.less" Url="Content/Bootstrap/responsive-utilities.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\responsive-embed.less" Url="Content/Bootstrap/responsive-embed.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\progress-bars.less" Url="Content/Bootstrap/progress-bars.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\print.less" Url="Content/Bootstrap/print.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\popovers.less" Url="Content/Bootstrap/popovers.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\panels.less" Url="Content/Bootstrap/panels.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\pagination.less" Url="Content/Bootstrap/pagination.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\pager.less" Url="Content/Bootstrap/pager.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\normalize.less" Url="Content/Bootstrap/normalize.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\navs.less" Url="Content/Bootstrap/navs.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\navbar.less" Url="Content/Bootstrap/navbar.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\modals.less" Url="Content/Bootstrap/modals.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\vendor-prefixes.less" Url="Content/Bootstrap/mixins/vendor-prefixes.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\text-overflow.less" Url="Content/Bootstrap/mixins/text-overflow.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\text-emphasis.less" Url="Content/Bootstrap/mixins/text-emphasis.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\table-row.less" Url="Content/Bootstrap/mixins/table-row.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\tab-focus.less" Url="Content/Bootstrap/mixins/tab-focus.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\size.less" Url="Content/Bootstrap/mixins/size.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\responsive-visibility.less" Url="Content/Bootstrap/mixins/responsive-visibility.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\resize.less" Url="Content/Bootstrap/mixins/resize.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\reset-text.less" Url="Content/Bootstrap/mixins/reset-text.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\reset-filter.less" Url="Content/Bootstrap/mixins/reset-filter.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\progress-bar.less" Url="Content/Bootstrap/mixins/progress-bar.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\panels.less" Url="Content/Bootstrap/mixins/panels.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\pagination.less" Url="Content/Bootstrap/mixins/pagination.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\opacity.less" Url="Content/Bootstrap/mixins/opacity.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\nav-vertical-align.less" Url="Content/Bootstrap/mixins/nav-vertical-align.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\nav-divider.less" Url="Content/Bootstrap/mixins/nav-divider.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\list-group.less" Url="Content/Bootstrap/mixins/list-group.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\labels.less" Url="Content/Bootstrap/mixins/labels.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\image.less" Url="Content/Bootstrap/mixins/image.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\hide-text.less" Url="Content/Bootstrap/mixins/hide-text.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\grid.less" Url="Content/Bootstrap/mixins/grid.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\grid-framework.less" Url="Content/Bootstrap/mixins/grid-framework.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\gradients.less" Url="Content/Bootstrap/mixins/gradients.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\forms.less" Url="Content/Bootstrap/mixins/forms.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\clearfix.less" Url="Content/Bootstrap/mixins/clearfix.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\center-block.less" Url="Content/Bootstrap/mixins/center-block.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\buttons.less" Url="Content/Bootstrap/mixins/buttons.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\border-radius.less" Url="Content/Bootstrap/mixins/border-radius.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\background-variant.less" Url="Content/Bootstrap/mixins/background-variant.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins\alerts.less" Url="Content/Bootstrap/mixins/alerts.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\mixins.less" Url="Content/Bootstrap/mixins.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\media.less" Url="Content/Bootstrap/media.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\list-group.less" Url="Content/Bootstrap/list-group.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\labels.less" Url="Content/Bootstrap/labels.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\jumbotron.less" Url="Content/Bootstrap/jumbotron.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\input-groups.less" Url="Content/Bootstrap/input-groups.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\grid.less" Url="Content/Bootstrap/grid.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\glyphicons.less" Url="Content/Bootstrap/glyphicons.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\forms.less" Url="Content/Bootstrap/forms.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\dropdowns.less" Url="Content/Bootstrap/dropdowns.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\component-animations.less" Url="Content/Bootstrap/component-animations.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\code.less" Url="Content/Bootstrap/code.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\close.less" Url="Content/Bootstrap/close.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\carousel.less" Url="Content/Bootstrap/carousel.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\buttons.less" Url="Content/Bootstrap/buttons.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\button-groups.less" Url="Content/Bootstrap/button-groups.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\breadcrumbs.less" Url="Content/Bootstrap/breadcrumbs.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\bootstrap.less" Url="Content/Bootstrap/bootstrap.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\badges.less" Url="Content/Bootstrap/badges.less" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\alerts.less" Url="Content/Bootstrap/alerts.less" ReplaceContent="TRUE" />
+    <File Path="Content\_bootstrap-datetimepicker.less" Url="Content/_bootstrap-datetimepicker.less" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-datetimepicker-build.less" Url="Content/bootstrap-datetimepicker-build.less" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\tooltip.css" Url="Content/themes/base/tooltip.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\theme.css" Url="Content/themes/base/theme.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\tabs.css" Url="Content/themes/base/tabs.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\spinner.css" Url="Content/themes/base/spinner.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\sortable.css" Url="Content/themes/base/sortable.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\slider.css" Url="Content/themes/base/slider.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\selectmenu.css" Url="Content/themes/base/selectmenu.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\selectable.css" Url="Content/themes/base/selectable.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\resizable.css" Url="Content/themes/base/resizable.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\progressbar.css" Url="Content/themes/base/progressbar.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\menu.css" Url="Content/themes/base/menu.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\jquery-ui.min.css" Url="Content/themes/base/jquery-ui.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\jquery-ui.css" Url="Content/themes/base/jquery-ui.css" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_ffffff_256x240.png" Url="Content/jQuery.UI/images/ui-icons_ffffff_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_cd0a0a_256x240.png" Url="Content/jQuery.UI/images/ui-icons_cd0a0a_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_cc0000_256x240.png" Url="Content/jQuery.UI/images/ui-icons_cc0000_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_888888_256x240.png" Url="Content/jQuery.UI/images/ui-icons_888888_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_777777_256x240.png" Url="Content/jQuery.UI/images/ui-icons_777777_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_777620_256x240.png" Url="Content/jQuery.UI/images/ui-icons_777620_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_555555_256x240.png" Url="Content/jQuery.UI/images/ui-icons_555555_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_454545_256x240.png" Url="Content/jQuery.UI/images/ui-icons_454545_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_444444_256x240.png" Url="Content/jQuery.UI/images/ui-icons_444444_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_2e83ff_256x240.png" Url="Content/jQuery.UI/images/ui-icons_2e83ff_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-icons_222222_256x240.png" Url="Content/jQuery.UI/images/ui-icons_222222_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_highlight-soft_75_cccccc_1x100.png" Url="Content/jQuery.UI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_glass_95_fef1ec_1x400.png" Url="Content/jQuery.UI/images/ui-bg_glass_95_fef1ec_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_glass_75_e6e6e6_1x400.png" Url="Content/jQuery.UI/images/ui-bg_glass_75_e6e6e6_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_glass_75_dadada_1x400.png" Url="Content/jQuery.UI/images/ui-bg_glass_75_dadada_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_glass_65_ffffff_1x400.png" Url="Content/jQuery.UI/images/ui-bg_glass_65_ffffff_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_glass_55_fbf9ee_1x400.png" Url="Content/jQuery.UI/images/ui-bg_glass_55_fbf9ee_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_flat_75_ffffff_40x100.png" Url="Content/jQuery.UI/images/ui-bg_flat_75_ffffff_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\images\ui-bg_flat_0_aaaaaa_40x100.png" Url="Content/jQuery.UI/images/ui-bg_flat_0_aaaaaa_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\draggable.css" Url="Content/themes/base/draggable.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\dialog.css" Url="Content/themes/base/dialog.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\datepicker.css" Url="Content/themes/base/datepicker.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\core.css" Url="Content/themes/base/core.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\button.css" Url="Content/themes/base/button.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\base.css" Url="Content/themes/base/base.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\autocomplete.css" Url="Content/themes/base/autocomplete.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\all.css" Url="Content/themes/base/all.css" ReplaceContent="TRUE" />
+    <File Path="Content\themes\base\accordion.css" Url="Content/themes/base/accordion.css" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\jquery-ui.min.css" Url="Content/jQuery.UI/jquery-ui.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\jQuery.UI\jquery-ui.css" Url="Content/jQuery.UI/jquery-ui.css" ReplaceContent="TRUE" />
+    <File Path="Content\Timeline\timeline.css" Url="Content/Timeline/timeline.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\modules\_colors.scss" Url="Content/PrintJS/sass/modules/_colors.scss" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\partials\_modal.scss" Url="Content/PrintJS/sass/partials/_modal.scss" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\partials\_spinner.scss" Url="Content/PrintJS/sass/partials/_spinner.scss" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\index.scss" Url="Content/PrintJS/index.scss" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\index.css" Url="Content/PrintJS/index.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\index.min.css" Url="Content/PrintJS/index.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\modules\_colors.css" Url="Content/PrintJS/sass/modules/_colors.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\modules\_colors.min.css" Url="Content/PrintJS/sass/modules/_colors.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\partials\_modal.css" Url="Content/PrintJS/sass/partials/_modal.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\partials\_modal.min.css" Url="Content/PrintJS/sass/partials/_modal.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\partials\_spinner.css" Url="Content/PrintJS/sass/partials/_spinner.css" ReplaceContent="TRUE" />
+    <File Path="Content\PrintJS\sass\partials\_spinner.min.css" Url="Content/PrintJS/sass/partials/_spinner.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\DateRangePicker\daterangepicker.css" Url="Content/DateRangePicker/daterangepicker.css" ReplaceContent="TRUE" />
+    <File Path="Content\DataTable\datatables.bootstrap.css" Url="Content/DataTable/datatables.bootstrap.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

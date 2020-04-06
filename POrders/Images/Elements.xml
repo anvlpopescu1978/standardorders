@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" Level="Published" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Images\sp_logo.png" Url="Images/sp_logo.png" Level="Published" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Images\sp_logo.jpg" Url="Images/sp_logo.jpg" ReplaceContent="TRUE" Type="GhostableInLibrary"  />
+    <File Path="Images\HPR_white_logo.png" Url="Images/HPR_white_logo.png" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+    <File Path="Images\regus.jpg" Url="Images/regus.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\IWGLogo.png" Url="Images/IWGLogo.png" ReplaceContent="TRUE" />
+    <File Path="Images\favicon.ico" Url="Images/favicon.ico" ReplaceContent="TRUE" />
+    <File Path="Images\S-Group logo.png" Url="Images/S-Group logo.png" ReplaceContent="TRUE" />
+    <File Path="Images\HPR_Blue_logo.PNG" Url="Images/HPR_Blue_logo.PNG" ReplaceContent="TRUE" />
+    <File Path="Images\hp_logo.gif" Url="Images/hp_logo.gif" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

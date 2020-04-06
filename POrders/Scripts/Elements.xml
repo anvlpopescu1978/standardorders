@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Bootstrap\bootstrap.js" Url="Scripts/Framework/Bootstrap/bootstrap.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Bootstrap\bootstrap.bundle.js" Url="Scripts/Framework/Bootstrap/bootstrap.bundle.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Bootstrap\popper.js" Url="Scripts/Framework/Bootstrap/popper.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\jQuery\jquery.js" Url="Scripts/Framework/jQuery/jquery.js" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Bootstrap\metismenu.js" Url="Scripts/Framework/Bootstrap/metismenu.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Master.js" Url="Scripts/Master.js" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Dialog\sharepoint.dialog.js" Url="Scripts/Framework/Dialog/sharepoint.dialog.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Lists\sharepoint.lists.js" Url="Scripts/Framework/Lists/sharepoint.lists.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Controls\sharepoint.controls.js" Url="Scripts/Framework/Controls/sharepoint.controls.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jQuery\jquery.makemecenter.js" Url="Scripts/Framework/jQuery/jquery.makemecenter.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Bootstrap\modal.fullscreen.js" Url="Scripts/Framework/Bootstrap/modal.fullscreen.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jQuery\jquery.number.js" Url="Scripts/Framework/jQuery/jquery.number.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Mail\sharepoint.mail.js" Url="Scripts/Framework/Mail/sharepoint.mail.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jQuery\tooltipster.main.min.js" Url="Scripts/Framework/jQuery/tooltipster.main.min.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\jQuery\tooltipster.bundle.min.js" Url="Scripts/Framework/jQuery/tooltipster.bundle.min.js" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\DataTable\dataTables.fixedColumns.js" Url="Scripts/Framework/DataTable/dataTables.fixedColumns.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\DataTable\datatables.js" Url="Scripts/Framework/DataTable/datatables.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\start.js" Url="Scripts/start.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\loader.js" Url="Scripts/loader.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\DataTable\dataTables.responsive.js" Url="Scripts/Framework/DataTable/dataTables.responsive.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Charts\morris.js" Url="Scripts/Framework/Charts/morris.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Charts\raphael.js" Url="Scripts/Framework/Charts/raphael.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jsPdf\jspdf.min.js" Url="Scripts/Framework/jsPdf/jspdf.min.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jsPdf\html.js" Url="Scripts/Framework/jsPdf/html.js" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jsPdf\jspdf.plugin.autotable.min.js" Url="Scripts/Framework/jsPdf/jspdf.plugin.autotable.min.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\jsPdf\html2canvas.js" Url="Scripts/Framework/jsPdf/html2canvas.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\HostOps\HostOps.js" Url="Scripts/Framework/HostOps/HostOps.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\XLSX\xlsx.js" Url="Scripts/Framework/XLSX/xlsx.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\XLSX\xlsx.core.min.js" Url="Scripts/Framework/XLSX/xlsx.core.min.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\XLSX\jszip.js" Url="Scripts/Framework/XLSX/jszip.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Require.js" Url="Scripts/Require.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\App - Copy.js" Url="Scripts/App - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\datatables - Copy.js" Url="Scripts/Framework/DataTable/datatables - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\datatables.buttons.js" Url="Scripts/Framework/DataTable/datatables.buttons.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\dataTables.responsive - Copy.js" Url="Scripts/Framework/DataTable/dataTables.responsive - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Lists\sharepoint.data.js" Url="Scripts/Framework/Lists/sharepoint.data.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Lists\sharepoint.data - Copy.js" Url="Scripts/Framework/Lists/sharepoint.data - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Moment\moment.js" Url="Scripts/Framework/Moment/moment.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Bootstrap.DatePicker\bootstrap.datepicker.js" Url="Scripts/Framework/Bootstrap.DatePicker/bootstrap.datepicker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Moment\moment-with-locales.js" Url="Scripts/Framework/Moment/moment-with-locales.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.min.js" Url="Scripts/moment.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.js" Url="Scripts/moment.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment-with-locales.min.js" Url="Scripts/moment-with-locales.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment-with-locales.js" Url="Scripts/moment-with-locales.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap-datetimepicker.min.js" Url="Scripts/bootstrap-datetimepicker.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap-datetimepicker.js" Url="Scripts/bootstrap-datetimepicker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Bootstrap.DatePicker\bootstrap-datetimepicker.min.js" Url="Scripts/Framework/Bootstrap.DatePicker/bootstrap-datetimepicker.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.12.4.min.map" Url="Scripts/jquery-1.12.4.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.12.4.min.js" Url="Scripts/jquery-1.12.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.12.4.js" Url="Scripts/jquery-1.12.4.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.12.4.intellisense.js" Url="Scripts/jquery-1.12.4.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\jQuery.UI\jquery-ui-1.12.1.min.js" Url="Scripts/Framework/jQuery.UI/jquery-ui-1.12.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\jQuery.UI\jquery-ui-1.12.1.js" Url="Scripts/Framework/jQuery.UI/jquery-ui-1.12.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Graph\msal.js" Url="Scripts/Framework/Graph/msal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Graph\request.js" Url="Scripts/Framework/Graph/request.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Graph\graph.js" Url="Scripts/Framework/Graph/graph.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Graph\polyfiil.js" Url="Scripts/Framework/Graph/polyfiil.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\browser.js" Url="Scripts/Framework/PrintJS/js/browser.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\functions.js" Url="Scripts/Framework/PrintJS/js/functions.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\html.js" Url="Scripts/Framework/PrintJS/js/html.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\image.js" Url="Scripts/Framework/PrintJS/js/image.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\init.js" Url="Scripts/Framework/PrintJS/js/init.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\json.js" Url="Scripts/Framework/PrintJS/js/json.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\modal.js" Url="Scripts/Framework/PrintJS/js/modal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\pdf.js" Url="Scripts/Framework/PrintJS/js/pdf.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\print.js" Url="Scripts/Framework/PrintJS/js/print.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\PrintJS\js\raw-html.js" Url="Scripts/Framework/PrintJS/js/raw-html.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DateRangePicker\daterangepicker.js" Url="Scripts/Framework/DateRangePicker/daterangepicker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DateRangePicker\daterangepicker.min.js" Url="Scripts/Framework/DateRangePicker/daterangepicker.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\EasyPieChart\easypiechart.js" Url="Scripts/Framework/EasyPieChart/easypiechart.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\datatables.bootstrap.js" Url="Scripts/Framework/DataTable/datatables.bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Filesaver\FileSaver.js" Url="Scripts/Framework/Filesaver/FileSaver.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Filesaver\Blob.js" Url="Scripts/Framework/Filesaver/Blob.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Suppliers" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Suppliers" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01008aeeab89df924c669c712139bf9710f8" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{6675a32d-085d-4742-ac5f-b81281ff06e5}" Name="Address" /><FieldRef ID="{536af06d-a1e3-41bd-946b-30765e0c5a6d}" Name="Phone" /><FieldRef ID="{2bea4655-e153-46b5-a6df-0999da4e65bd}" Name="ContactPerson" /><FieldRef ID="{cc2dccaa-4299-488d-9aa0-383d31d86ea0}" Name="SupplierName" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>      
+    <Field Name="Address" ID="{6675a32d-085d-4742-ac5f-b81281ff06e5}" DisplayName="Address" Type="Note" Required="TRUE" />
+      <Field Name="Phone" ID="{536af06d-a1e3-41bd-946b-30765e0c5a6d}" DisplayName="Phone" Type="Text" Required="TRUE" />
+      <Field Name="ContactPerson" ID="{2bea4655-e153-46b5-a6df-0999da4e65bd}" DisplayName="Contact Person" Type="User" Required="TRUE" List="UserInfo" />
+      <Field Name="SupplierName" ID="{cc2dccaa-4299-488d-9aa0-383d31d86ea0}" DisplayName="Supplier Name" Type="Text" Required="TRUE" EnforceUniqueValues="TRUE" AllowDuplicateValues="FALSE" Indexed="TRUE" Description="Supplier Name" MaxLength="255" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Address" /><FieldRef Name="Phone" /><FieldRef Name="ContactPerson" /><FieldRef Name="SupplierName" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

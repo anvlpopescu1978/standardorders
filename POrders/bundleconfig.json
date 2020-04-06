@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "Scripts/Framework/DateRangePicker/daterangepicker.min.js",
+    "inputFiles": [
+      "Scripts/Framework/DateRangePicker/daterangepicker.js"
+    ]
+  }
+]

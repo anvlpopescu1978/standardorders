@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "Content/_bootstrap-datetimepicker.css",
+    "inputFile": "Content/_bootstrap-datetimepicker.less"
+  },
+  {
+    "outputFile": "Content/bootstrap-datetimepicker-build.css",
+    "inputFile": "Content/bootstrap-datetimepicker-build.less"
+  },
+  {
+    "outputFile": "Content/PrintJS/index.css",
+    "inputFile": "Content/PrintJS/index.scss"
+  },
+  {
+    "outputFile": "Content/PrintJS/sass/modules/_colors.css",
+    "inputFile": "Content/PrintJS/sass/modules/_colors.scss"
+  },
+  {
+    "outputFile": "Content/PrintJS/sass/partials/_modal.css",
+    "inputFile": "Content/PrintJS/sass/partials/_modal.scss"
+  },
+  {
+    "outputFile": "Content/PrintJS/sass/partials/_spinner.css",
+    "inputFile": "Content/PrintJS/sass/partials/_spinner.scss"
+  }
+]

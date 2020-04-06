@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Settings" OnQuickLaunch="TRUE" TemplateType="121" Url="Lists/Settings" Description="Settings">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">List Name</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">List URL</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">File Prefix</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Signed Contracts Location</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="HPBasket" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/HPBasket" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010024f63689b4af423cb8de9c6703e2526f" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{6393afe3-daca-4bce-9000-16eabe96874b}" Name="DartID" /><FieldRef ID="{171b082f-28e5-47d9-8703-34ead9cc3727}" Name="ProductName" /><FieldRef ID="{b77dfbdf-9fb9-4808-bd0a-8a33a81a3a55}" Name="SKU" /><FieldRef ID="{1caca533-e59d-4627-9011-54b6aa9dc1a8}" Name="BillingModel" /><FieldRef ID="{38348944-f71e-401a-bf84-d1373ba5edab}" Name="BaseFee" /><FieldRef ID="{1b49ffcf-a346-4748-bf5c-c8a3899ee9f2}" Name="MonoClick" /><FieldRef ID="{a842e753-82d2-4d4b-8919-687e8281ff22}" Name="ColorClick" /><FieldRef ID="{ddbe43c6-4bf4-457c-b086-530ccfeb6f1f}" Name="ProfColorClick" /><FieldRef ID="{3f3a5c85-9d5a-4663-b925-8b68a678ea3a}" Name="WorkCountry" /><FieldRef ID="{45f207e0-7568-474a-9523-c5070c9cbe94}" Name="Currency" /><FieldRef ID="{7b5a8ef8-7df4-4758-82e4-f512dfa25c2f}" Name="SolutionNetPrice" /><FieldRef ID="{69ca2811-cee5-40e2-91a5-cbce552007ea}" Name="SolutionNumber" /><FieldRef ID="{ca7ef49c-bd45-481d-b396-aa5a7777272b}" Name="PrinterType" /><FieldRef ID="{490333f7-91a3-4542-b333-424eb5873cd8}" Name="AccesoriesList" /><FieldRef ID="{f6ac66e0-8900-4493-ab07-52ffb2019bf1}" Name="SLA" /><FieldRef ID="{b255fc85-a1c5-424e-a6c5-622a4294d33e}" Name="Qty" /><FieldRef ID="{b4278eda-1ddd-4a9c-9f32-a86b0422bbf7}" Name="OrderID" /><FieldRef ID="{d0d8a6a2-ca67-4c6e-ad85-6b5d667972ed}" Name="ProductID" /><FieldRef ID="{71ebd4a3-231a-48d3-b30d-fa3ba43b33ac}" Name="UpfrontCharge" /><FieldRef ID="{f81e8c05-b60e-452e-b13b-e807e75c47b5}" Name="Class" /><FieldRef ID="{72ee27e6-3f5d-4095-8746-255761380593}" Name="SolutionNumberOrdering" /><FieldRef ID="{19fbf0e5-85e6-48e6-9695-573bc1d0a6f0}" Name="MonthlyPages" /><FieldRef ID="{009480ea-83f6-4589-a22c-0c90f78a0502}" Name="CustomGroup" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="DartID" ID="{6393afe3-daca-4bce-9000-16eabe96874b}" DisplayName="Dart ID" Type="Text" /><Field Name="ProductName" ID="{171b082f-28e5-47d9-8703-34ead9cc3727}" DisplayName="Product Name" Type="Text" /><Field Name="SKU" ID="{b77dfbdf-9fb9-4808-bd0a-8a33a81a3a55}" DisplayName="SKU" Type="Text" /><Field Name="BillingModel" ID="{1caca533-e59d-4627-9011-54b6aa9dc1a8}" DisplayName="Billing Model" Type="Text" /><Field Name="BaseFee" ID="{38348944-f71e-401a-bf84-d1373ba5edab}" DisplayName="Base Fee" Type="Number" /><Field Name="MonoClick" ID="{1b49ffcf-a346-4748-bf5c-c8a3899ee9f2}" DisplayName="Mono Click" Type="Number" /><Field Name="ColorClick" ID="{a842e753-82d2-4d4b-8919-687e8281ff22}" DisplayName="Color Click" Type="Number" /><Field Name="ProfColorClick" ID="{ddbe43c6-4bf4-457c-b086-530ccfeb6f1f}" DisplayName="Prof Color Click" Type="Number" /><Field ID="{3f3a5c85-9d5a-4663-b925-8b68a678ea3a}" Name="WorkCountry" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkCountry" Group="$Resources:core,Person_Event_Columns;" DisplayName="Country" Type="Text" /><Field Name="Currency" ID="{45f207e0-7568-474a-9523-c5070c9cbe94}" DisplayName="Currency" Type="Text" /><Field Name="SolutionNetPrice" ID="{7b5a8ef8-7df4-4758-82e4-f512dfa25c2f}" DisplayName="Solution Net Price" Type="Number" /><Field Name="SolutionNumber" ID="{69ca2811-cee5-40e2-91a5-cbce552007ea}" DisplayName="Solution Number" Type="Text" /><Field Name="PrinterType" ID="{ca7ef49c-bd45-481d-b396-aa5a7777272b}" DisplayName="Printer Type" Type="Text" /><Field Name="AccesoriesList" ID="{490333f7-91a3-4542-b333-424eb5873cd8}" DisplayName="Accesories List" Type="Note" /><Field Name="SLA" ID="{f6ac66e0-8900-4493-ab07-52ffb2019bf1}" DisplayName="SLA" Type="Text" /><Field Name="Qty" ID="{b255fc85-a1c5-424e-a6c5-622a4294d33e}" DisplayName="Qty" Type="Number" /><Field Name="OrderID" ID="{b4278eda-1ddd-4a9c-9f32-a86b0422bbf7}" DisplayName="Order ID" Type="Lookup" List="Lists/Purchase Orders" ShowField="ID" /><Field Name="ProductID" ID="{d0d8a6a2-ca67-4c6e-ad85-6b5d667972ed}" DisplayName="Product ID" Type="Lookup" List="Lists/HPCatalogue" ShowField="ID" /><Field Name="UpfrontCharge" ID="{71ebd4a3-231a-48d3-b30d-fa3ba43b33ac}" DisplayName="Upfront Charge" Type="Number" Decimals="2" /><Field Name="Class" ID="{f81e8c05-b60e-452e-b13b-e807e75c47b5}" DisplayName="Class" Type="Text" /><Field Name="SolutionNumberOrdering" ID="{72ee27e6-3f5d-4095-8746-255761380593}" DisplayName="Solution Number Ordering" Type="Text" /><Field Name="MonthlyPages" ID="{19fbf0e5-85e6-48e6-9695-573bc1d0a6f0}" DisplayName="Monthly Pages" Type="Number" Decimals="0" /><Field Name="CustomGroup" ID="{009480ea-83f6-4589-a22c-0c90f78a0502}" DisplayName="Custom Group" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="DartID" /><FieldRef Name="ProductName" /><FieldRef Name="SKU" /><FieldRef Name="BillingModel" /><FieldRef Name="BaseFee" /><FieldRef Name="MonoClick" /><FieldRef Name="ColorClick" /><FieldRef Name="ProfColorClick" /><FieldRef Name="WorkCountry" /><FieldRef Name="Currency" /><FieldRef Name="SolutionNetPrice" /><FieldRef Name="SolutionNumber" /><FieldRef Name="PrinterType" /><FieldRef Name="AccesoriesList" /><FieldRef Name="SLA" /><FieldRef Name="Qty" /><FieldRef Name="OrderID" /><FieldRef Name="ProductID" /><FieldRef Name="UpfrontCharge" /><FieldRef Name="Class" /><FieldRef Name="SolutionNumberOrdering" /><FieldRef Name="MonthlyPages" /><FieldRef Name="CustomGroup" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

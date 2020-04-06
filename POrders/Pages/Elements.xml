@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\AddSupplier.aspx" Url="Pages/Suppliers/AddSupplier.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\AddSupplier.js" Url="Pages/Suppliers/AddSupplier.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\Suppliers.aspx" Url="Pages/Suppliers/Suppliers.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\Suppliers.js" Url="Pages/Suppliers/Suppliers.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\suppliers.xslt" Url="Pages/Suppliers/suppliers.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary"  Level="Published"/>
+    <File Path="Pages\Suppliers\EditSupplier.aspx" Url="Pages/Suppliers/EditSupplier.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\editsupplier.xslt" Url="Pages/Suppliers/editsupplier.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Suppliers\EditSupplier.js" Url="Pages/Suppliers/EditSupplier.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\AddProduct.aspx" Url="Pages/Products/AddProduct.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\AddProduct.js" Url="Pages/Products/AddProduct.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\Products.aspx" Url="Pages/Products/Products.aspx" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published"/>
+    <File Path="Pages\Products\products.xslt" Url="Pages/Products/products.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\Products.js" Url="Pages/Products/Products.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\EditProduct.aspx" Url="Pages/Products/EditProduct.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\EditProduct.js" Url="Pages/Products/EditProduct.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Products\editproduct.xslt" Url="Pages/Products/editproduct.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\CreatePO.aspx" Url="Pages/PO/CreatePO.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\CreatePO.js" Url="Pages/PO/CreatePO.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\AddToBasket.aspx" Url="Pages/PO/AddToBasket.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\AddToBasket.js" Url="Pages/PO/AddToBasket.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\addtobasket.xslt" Url="Pages/PO/addtobasket.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\ManageUsers.aspx" Url="Pages/Users/ManageUsers.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\manageusers.xslt" Url="Pages/Users/manageusers.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\ManageUsers.js" Url="Pages/Users/ManageUsers.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\users.xslt" Url="Pages/Common/users.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\MyOrders.aspx" Url="Pages/PO/MyOrders.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\myorders.xslt" Url="Pages/PO/myorders.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\MyOrders.js" Url="Pages/PO/MyOrders.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\PurchaseOrders.aspx" Url="Pages/Administration/PurchaseOrders.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\PurchaseOrders.js" Url="Pages/Administration/PurchaseOrders.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\orders.xslt" Url="Pages/Administration/orders.xslt" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\main.xslt" Url="Pages/Common/main.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\EditPO.aspx" Url="Pages/Common/EditPO.aspx" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published"/>
+    <File Path="Pages\Common\EditPO.js" Url="Pages/Common/EditPO.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\editpo.xslt" Url="Pages/Common/editpo.xslt" ReplaceContent="TRUE"  Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\basket.xslt" Url="Pages/Common/basket.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\history.xslt" Url="Pages/Common/history.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\editpo2.xslt" Url="Pages/Common/editpo2.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\userrole.xslt" Url="Pages/Common/userrole.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Team\PurchaseOrders.aspx" Url="Pages/Team/PurchaseOrders.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Team\PurchaseOrders.js" Url="Pages/Team/PurchaseOrders.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Team\orders.xslt" Url="Pages/Team/orders.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\PO\orders.xslt" Url="Pages/PO/orders.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Currencies\Currencies.js" Url="Pages/Currencies/Currencies.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Currencies\Currencies.aspx" Url="Pages/Currencies/Currencies.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Currencies\currencies.xslt" Url="Pages/Currencies/currencies.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\countries.xslt" Url="Pages/Countries/countries.xslt" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\Countries.js" Url="Pages/Countries/Countries.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\Countries.aspx" Url="Pages/Countries/Countries.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Pages\Default.js" Url="Pages/Default.js" ReplaceContent="TRUE" Level="Published" Type="GhostableInLibrary" />
+    <File Path="Pages\statistics.xslt" Url="Pages/statistics.xslt" ReplaceContent="TRUE" Level="Published" Type="GhostableInLibrary" />
+    <File Path="Pages\AccessDenied.aspx" Url="Pages/AccessDenied.aspx" ReplaceContent="TRUE" Level="Published" Type="GhostableInLibrary" />
+    <File Path="Pages\Common\Contract.aspx" Url="Pages/Common/Contract.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\SavedToExternalLib.aspx" Url="Pages/Administration/SavedToExternalLib.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\SavedToExternalLib.js" Url="Pages/Administration/SavedToExternalLib.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\ViewContract.aspx" Url="Pages/Common/ViewContract.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Pages\Common\ViewContract.js" Url="Pages/Common/ViewContract.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Catalogues\AddToCatalogue.aspx" Url="Pages/Catalogues/AddToCatalogue.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Catalogues\SeachDeal.js" Url="Pages/Catalogues/SeachDeal.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Catalogues\SearchDeal.aspx" Url="Pages/Catalogues/SearchDeal.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Catalogues\AddToCatalogue.js" Url="Pages/Catalogues/AddToCatalogue.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Catalogues\SeachDeal2.js" Url="Pages/Catalogues/SeachDeal2.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Catalogues\SearchDeal2.aspx" Url="Pages/Catalogues/SearchDeal2.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\LegalEntities.aspx" Url="Pages/Countries/LegalEntities.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\LegalEntities.js" Url="Pages/Countries/LegalEntities.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\EditLegalEntity.js" Url="Pages/Countries/EditLegalEntity.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\EditLegalEntity.aspx" Url="Pages/Countries/EditLegalEntity.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\Templates.aspx" Url="Pages/Administration/Templates.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\Templates.js" Url="Pages/Administration/Templates.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\EditCountry.aspx" Url="Pages/Countries/EditCountry.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Countries\EditCountry.js" Url="Pages/Countries/EditCountry.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Pages\Common\administrators.xslt" Url="Pages/Common/administrators.xslt" ReplaceContent="TRUE" />
+    <File Path="Pages\Approvals\poids.aspx" Url="Pages/Approvals/poids.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Approvals\poids.js" Url="Pages/Approvals/poids.js" ReplaceContent="TRUE" />
+    <File Path="Pages\Approvals\PendingOrders.aspx" Url="Pages/Approvals/PendingOrders.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Approvals\PendingOrders.js" Url="Pages/Approvals/PendingOrders.js" ReplaceContent="TRUE" />
+    <File Path="Pages\Common\basket - Copy.xslt" Url="Pages/Common/basket - Copy.xslt" ReplaceContent="TRUE" />
+    <File Path="Pages\Catalogues\AddToCatalogue - Copy.js" Url="Pages/Catalogues/AddToCatalogue - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Pages\Common\EditPO - Copy.js" Url="Pages/Common/EditPO - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Pages\PO\CreatePO - Copy.js" Url="Pages/PO/CreatePO - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Pages\Common\EditPO - Copy.aspx" Url="Pages/Common/EditPO - Copy.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\CustomerAdmin\PurchaseOrders.js" Url="Pages/CustomerAdmin/PurchaseOrders.js" ReplaceContent="TRUE" />
+    <File Path="Pages\CustomerAdmin\PurchaseOrders.aspx" Url="Pages/CustomerAdmin/PurchaseOrders.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\CustomerAdmin\orders.xslt" Url="Pages/CustomerAdmin/orders.xslt" ReplaceContent="TRUE" />
+    <File Path="Pages\Users\Companies.aspx" Url="Pages/Users/Companies.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Users\Companies.js" Url="Pages/Users/Companies.js" ReplaceContent="TRUE" />
+    <File Path="Pages\PartnerAdmin\PurchaseOrders.js" Url="Pages/PartnerAdmin/PurchaseOrders.js" ReplaceContent="TRUE" />
+    <File Path="Pages\PartnerAdmin\PurchaseOrders.aspx" Url="Pages/PartnerAdmin/PurchaseOrders.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\PartnerAdmin\orders.xslt" Url="Pages/PartnerAdmin/orders.xslt" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\bootstrap.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\bootstrap.bundle.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\popper.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery\jquery.js" Target="Scripts\Framework\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\metismenu.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Master.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Dialog\sharepoint.dialog.js" Target="Scripts\Framework\Dialog\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Lists\sharepoint.lists.js" Target="Scripts\Framework\Lists\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Controls\sharepoint.controls.js" Target="Scripts\Framework\Controls\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery\jquery.makemecenter.js" Target="Scripts\Framework\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\modal.fullscreen.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery\jquery.number.js" Target="Scripts\Framework\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Mail\sharepoint.mail.js" Target="Scripts\Framework\Mail\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery\tooltipster.main.min.js" Target="Scripts\Framework\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery\tooltipster.bundle.min.js" Target="Scripts\Framework\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\dataTables.fixedColumns.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\datatables.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="start.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="loader.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\dataTables.responsive.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Charts\morris.js" Target="Scripts\Framework\Charts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Charts\raphael.js" Target="Scripts\Framework\Charts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jsPdf\jspdf.min.js" Target="Scripts\Framework\jsPdf\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jsPdf\html.js" Target="Scripts\Framework\jsPdf\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jsPdf\jspdf.plugin.autotable.min.js" Target="Scripts\Framework\jsPdf\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jsPdf\html2canvas.js" Target="Scripts\Framework\jsPdf\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\HostOps\HostOps.js" Target="Scripts\Framework\HostOps\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\XLSX\xlsx.js" Target="Scripts\Framework\XLSX\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\XLSX\xlsx.core.min.js" Target="Scripts\Framework\XLSX\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\XLSX\jszip.js" Target="Scripts\Framework\XLSX\" Type="ElementFile" />
+    <ProjectItemFile Source="Require.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="App - Copy.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\datatables - Copy.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\datatables.buttons.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\dataTables.responsive - Copy.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Lists\sharepoint.data.js" Target="Scripts\Framework\Lists\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Lists\sharepoint.data - Copy.js" Target="Scripts\Framework\Lists\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Moment\moment.js" Target="Scripts\Framework\Moment\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap.DatePicker\bootstrap.datepicker.js" Target="Scripts\Framework\Bootstrap.DatePicker\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Moment\moment-with-locales.js" Target="Scripts\Framework\Moment\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="moment.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="moment.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="moment-with-locales.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="moment-with-locales.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap-datetimepicker.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap-datetimepicker.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap.DatePicker\bootstrap-datetimepicker.min.js" Target="Scripts\Framework\Bootstrap.DatePicker\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.12.4.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.12.4.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.12.4.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.12.4.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery.UI\jquery-ui-1.12.1.min.js" Target="Scripts\Framework\jQuery.UI\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery.UI\jquery-ui-1.12.1.js" Target="Scripts\Framework\jQuery.UI\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Graph\msal.js" Target="Scripts\Framework\Graph\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Graph\request.js" Target="Scripts\Framework\Graph\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Graph\graph.js" Target="Scripts\Framework\Graph\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Graph\polyfiil.js" Target="Scripts\Framework\Graph\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\browser.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\functions.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\html.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\image.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\init.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\json.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\modal.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\pdf.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\print.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\PrintJS\js\raw-html.js" Target="Scripts\Framework\PrintJS\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DateRangePicker\daterangepicker.js" Target="Scripts\Framework\DateRangePicker\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DateRangePicker\daterangepicker.min.js" Target="Scripts\Framework\DateRangePicker\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\EasyPieChart\easypiechart.js" Target="Scripts\Framework\EasyPieChart\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\datatables.bootstrap.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Filesaver\FileSaver.js" Target="Scripts\Framework\Filesaver\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Filesaver\Blob.js" Target="Scripts\Framework\Filesaver\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

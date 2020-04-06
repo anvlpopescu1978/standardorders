@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\AddSupplier.aspx" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\AddSupplier.js" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\Suppliers.aspx" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\Suppliers.js" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\suppliers.xslt" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\EditSupplier.aspx" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\editsupplier.xslt" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Suppliers\EditSupplier.js" Target="Pages\Suppliers\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\AddProduct.aspx" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\AddProduct.js" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\Products.aspx" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\products.xslt" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\Products.js" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\EditProduct.aspx" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\EditProduct.js" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="Products\editproduct.xslt" Target="Pages\Products\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\CreatePO.aspx" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\CreatePO.js" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\AddToBasket.aspx" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\AddToBasket.js" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\addtobasket.xslt" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\ManageUsers.aspx" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\manageusers.xslt" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\ManageUsers.js" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\users.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\MyOrders.aspx" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\myorders.xslt" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\MyOrders.js" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\PurchaseOrders.aspx" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\PurchaseOrders.js" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\orders.xslt" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\main.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditPO.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditPO.js" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\editpo.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\basket.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\history.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\editpo2.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\userrole.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Team\PurchaseOrders.aspx" Target="Pages\Team\" Type="ElementFile" />
+    <ProjectItemFile Source="Team\PurchaseOrders.js" Target="Pages\Team\" Type="ElementFile" />
+    <ProjectItemFile Source="Team\orders.xslt" Target="Pages\Team\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\orders.xslt" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="Currencies\Currencies.js" Target="Pages\Currencies\" Type="ElementFile" />
+    <ProjectItemFile Source="Currencies\Currencies.aspx" Target="Pages\Currencies\" Type="ElementFile" />
+    <ProjectItemFile Source="Currencies\currencies.xslt" Target="Pages\Currencies\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\countries.xslt" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\Countries.js" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\Countries.aspx" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Default.js" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="statistics.xslt" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AccessDenied.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\Contract.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\SavedToExternalLib.aspx" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\SavedToExternalLib.js" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\ViewContract.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\ViewContract.js" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\AddToCatalogue.aspx" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\SeachDeal.js" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\SearchDeal.aspx" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\AddToCatalogue.js" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\SeachDeal2.js" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\SearchDeal2.aspx" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\LegalEntities.aspx" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\LegalEntities.js" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\EditLegalEntity.js" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\EditLegalEntity.aspx" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\Templates.aspx" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\Templates.js" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\EditCountry.aspx" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Countries\EditCountry.js" Target="Pages\Countries\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\administrators.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Approvals\poids.aspx" Target="Pages\Approvals\" Type="ElementFile" />
+    <ProjectItemFile Source="Approvals\poids.js" Target="Pages\Approvals\" Type="ElementFile" />
+    <ProjectItemFile Source="Approvals\PendingOrders.aspx" Target="Pages\Approvals\" Type="ElementFile" />
+    <ProjectItemFile Source="Approvals\PendingOrders.js" Target="Pages\Approvals\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\basket - Copy.xslt" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Catalogues\AddToCatalogue - Copy.js" Target="Pages\Catalogues\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditPO - Copy.js" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="PO\CreatePO - Copy.js" Target="Pages\PO\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditPO - Copy.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="CustomerAdmin\PurchaseOrders.js" Target="Pages\CustomerAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="CustomerAdmin\PurchaseOrders.aspx" Target="Pages\CustomerAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="CustomerAdmin\orders.xslt" Target="Pages\CustomerAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\Companies.aspx" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\Companies.js" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="PartnerAdmin\PurchaseOrders.js" Target="Pages\PartnerAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="PartnerAdmin\PurchaseOrders.aspx" Target="Pages\PartnerAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="PartnerAdmin\orders.xslt" Target="Pages\PartnerAdmin\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

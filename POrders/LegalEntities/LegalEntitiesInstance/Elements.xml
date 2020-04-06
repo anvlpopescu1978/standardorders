@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="LegalEntities" OnQuickLaunch="TRUE" TemplateType="142" Url="Lists/LegalEntities" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Legal_x0020_Entity_x0020_Name">Digital Office Company</Field>
+          <Field Name="VaTNumber">FI10339577</Field>
+          <Field Name="WorkCity">Espoo</Field>
+          <Field Name="PostalCode">02600</Field>
+          <Field Name="CountryCode">FI</Field>
+          <Field Name="Country">Finland</Field>
+          <Field Name="SSOWNumber">91TB0910</Field>
+          <Field Name="CPADate">2020-03-18T12:00:00Z</Field>
+          <Field Name="AddressLine1">Linnoitustie 4 A</Field>
+          <Field Name="AddressLine2">Linnoitustie 4 A</Field>
+          <Field Name="ContactName">Jonne Makkula</Field>
+          <Field Name="ContactPhone">358 44 58 177 17</Field>
+          <Field Name="ContactEmail">jonne.makkula@digitalofficecompany.fi</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

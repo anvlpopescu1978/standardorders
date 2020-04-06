@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Countries" OnQuickLaunch="TRUE" TemplateType="1004" Url="Lists/Countries" Description="Countries">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="CountryCode">FI</Field>
+          <Field Name="Country">Finland</Field>
+          <Field Name="DefaultCurrency">EUR</Field>
+          <Field Name="Legal_x0020_Entity_x0020_Name">HP Finland Oy</Field>
+          <Field Name="Terms_x0026_Conditions">Terms and Condtiions</Field>
+          <Field Name="VatNumber">-</Field>
+          <Field Name="WorkCity">Espoo</Field>
+          <Field Name="Address1">Piispankalliontie 17, Pt. Ground Floor</Field>
+          <Field Name="Address2">-</Field>
+          <Field Name="PostalCode">FI-02200</Field>
+          <Field Name="InvoiceCurrency">EUR</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Currencies" OnQuickLaunch="TRUE" TemplateType="1003" Url="Lists/Currencies" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">EUR</Field>
+          <Field Name="CurrencyName">EURO</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
